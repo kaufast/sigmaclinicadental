@@ -20,6 +20,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: 'eu-west-3'  
 
-      - name: Sync files to S3
+      - name: Verify HTML5 directory contents
         run: |
-          aws s3 sync ./build/ s3://sigmaclinicadental.com/ --delete
+          echo "Listing files in the HTML5 directory:"
+          ls -al ./html5  # Adjust to your actual directory name
+
+      - name: Sync HTML5 files to S3
+        run: |
+          aws s3 sync ./html5/ s3://sigmaclinicadental.com/ --delete
