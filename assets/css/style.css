@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
-    Template Name: Sigma Clinica Dental
-    Description: Sigma Clinica Dental
+    Template Name: Sigma Clínica Dental
+    Description: Sigma Clínica Dental
     Author: Codezion 
     Author URI: https://www.templatemonster.com/authors/codezion/
     Version: 1.0
@@ -838,7 +838,7 @@ table img {
 }
 
 .header .logo {
-    margin: 20px 0;
+    margin: 10px 0;
     height: 60px;
     width: 165px;
 }
@@ -2392,7 +2392,7 @@ table img {
     width: 70px;
 }
 .widget-title img {
-    width: 25%;
+    width: 50%;
 }
 .widget-title{
     margin-bottom: 30px;
@@ -3129,7 +3129,7 @@ border-bottom: 1px solid #dddddd;
     border-radius: 5px;
     height: 400px;
     text-align: center;
-    background-image: url(/assets/images/club/Dr-huertas.png);
+    background-image: url(/assets/images/team/Dentistas/dr-guevara-blog.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
